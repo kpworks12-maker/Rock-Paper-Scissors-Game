@@ -27,7 +27,7 @@ images = [rock, paper, scissors]
 
 response = int(input("enter your choice:"))
 if response >= 0 and <= 2:
-print(images[response])
+    print(images[response])
 comp_response = random.randint(0,2)
 print(f"computer chose {images[comp_response]}")
 
